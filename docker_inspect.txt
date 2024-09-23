@@ -1,0 +1,293 @@
+[
+    {
+        "Id": "07de7a32ee06aabde6bba53e6da566d7035f1780d6ab1e44240f2105fa229270",
+        "Created": "2024-09-23T10:28:53.809773758Z",
+        "Path": "bash",
+        "Args": [
+            "start.sh"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 1939,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2024-09-23T10:28:54.107302588Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2024-09-23T19:59:18.900487684Z",
+                        "End": "2024-09-23T19:59:18.929254184Z",
+                        "ExitCode": 0,
+                        "Output": "true\n"
+                    },
+                    {
+                        "Start": "2024-09-23T19:59:48.930893716Z",
+                        "End": "2024-09-23T19:59:48.963892797Z",
+                        "ExitCode": 0,
+                        "Output": "true\n"
+                    },
+                    {
+                        "Start": "2024-09-23T20:00:18.966216498Z",
+                        "End": "2024-09-23T20:00:18.993803795Z",
+                        "ExitCode": 0,
+                        "Output": "true\n"
+                    },
+                    {
+                        "Start": "2024-09-23T20:00:48.997030888Z",
+                        "End": "2024-09-23T20:00:49.027139284Z",
+                        "ExitCode": 0,
+                        "Output": "true\n"
+                    },
+                    {
+                        "Start": "2024-09-23T20:01:19.030120027Z",
+                        "End": "2024-09-23T20:01:19.058802969Z",
+                        "ExitCode": 0,
+                        "Output": "true\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:c5b76dc23d6e75cff7b6a12fa524d9e3da4c79ef95b6e3b28e20e8a3e01acc06",
+        "ResolvConfPath": "/var/lib/docker/containers/07de7a32ee06aabde6bba53e6da566d7035f1780d6ab1e44240f2105fa229270/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/07de7a32ee06aabde6bba53e6da566d7035f1780d6ab1e44240f2105fa229270/hostname",
+        "HostsPath": "/var/lib/docker/containers/07de7a32ee06aabde6bba53e6da566d7035f1780d6ab1e44240f2105fa229270/hosts",
+        "LogPath": "/var/lib/docker/containers/07de7a32ee06aabde6bba53e6da566d7035f1780d6ab1e44240f2105fa229270/07de7a32ee06aabde6bba53e6da566d7035f1780d6ab1e44240f2105fa229270-json.log",
+        "Name": "/open-webui",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "open-webui:/app/backend/data"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {
+                "8080/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                62,
+                122
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [
+                "host.docker.internal:host-gateway"
+            ],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": true,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": [
+                "label=disable"
+            ],
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": null,
+            "ReadonlyPaths": null
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/bfffc688b39bb4b515143fc2a2f2912c4ff5849b68f16182d3e16db0886f5612-init/diff:/var/lib/docker/overlay2/889b604c4c0b3e41caa6ec8d179b67431ea0b0a099024c853ecb68875f23062d/diff:/var/lib/docker/overlay2/c4194743b5de28910c15838777c5f4dea7a47a4de22b244e58854f02b0c98895/diff:/var/lib/docker/overlay2/16753c603bdaa6defcab1fd1460cc9775fe9493365d4fffaa496d54fc324a3ce/diff:/var/lib/docker/overlay2/9351e654402a57cd5213730c6b66d16e6ba3d16b22246008332204a4e22bce35/diff:/var/lib/docker/overlay2/ab33974a042fc43b6e2a13330710cf511ce746eed4950ef18e24c3bab54a60ce/diff:/var/lib/docker/overlay2/7dd8803a360df606099567b5dd6c13d670e4f493638ce4be5a8dcefc08e3a3a7/diff:/var/lib/docker/overlay2/e65c88e69f727550dedd6065983d04a9727aa90ae4b316afe45927aa014a0cf6/diff:/var/lib/docker/overlay2/ab38f931a4f8b3d123b9f0ad371a986570bbefbd0768e72c69041b87eedd9bda/diff:/var/lib/docker/overlay2/8523be1aa2ea93d2c165c936d442cf5f8ffdd544ea7c172c3212c31919b86e79/diff:/var/lib/docker/overlay2/cee0639c0312e55f719d671bf4c35aba21d3b97ddaa771a9cc94f25cde273466/diff:/var/lib/docker/overlay2/66d5925e218d38ca02c040d2ac934f16b9b0b82fb0c644e1dc145d4329033d0a/diff:/var/lib/docker/overlay2/5fed9d03070a6a2d014f28e284c17cd786ce25c0eee2daff435433ab19c69633/diff:/var/lib/docker/overlay2/76f395d748cb479b229b233f17f9d17f0b060f9e5ef2da1db081f3f0a73fb83c/diff:/var/lib/docker/overlay2/6a6e354c024066e298c8bbab18b9d81ad783e5f78fbfc9a2d164a858f30907ac/diff:/var/lib/docker/overlay2/be88835a14336717bf56ad6de33953c87435e9bc012ef64e34de21cb1b0419d9/diff:/var/lib/docker/overlay2/d35a60b3e76a25e08c9d3064e7eac4fd51fa7df548bce5d8d7c9124fa0f9e8fc/diff",
+                "MergedDir": "/var/lib/docker/overlay2/bfffc688b39bb4b515143fc2a2f2912c4ff5849b68f16182d3e16db0886f5612/merged",
+                "UpperDir": "/var/lib/docker/overlay2/bfffc688b39bb4b515143fc2a2f2912c4ff5849b68f16182d3e16db0886f5612/diff",
+                "WorkDir": "/var/lib/docker/overlay2/bfffc688b39bb4b515143fc2a2f2912c4ff5849b68f16182d3e16db0886f5612/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "open-webui",
+                "Source": "/var/lib/docker/volumes/open-webui/_data",
+                "Destination": "/app/backend/data",
+                "Driver": "local",
+                "Mode": "z",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "07de7a32ee06",
+            "Domainname": "",
+            "User": "0:0",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+                "PYTHON_VERSION=3.11.10",
+                "ENV=prod",
+                "PORT=8080",
+                "USE_OLLAMA_DOCKER=false",
+                "USE_CUDA_DOCKER=false",
+                "USE_CUDA_DOCKER_VER=cu121",
+                "USE_EMBEDDING_MODEL_DOCKER=sentence-transformers/all-MiniLM-L6-v2",
+                "USE_RERANKING_MODEL_DOCKER=",
+                "OLLAMA_BASE_URL=/ollama",
+                "OPENAI_API_BASE_URL=",
+                "OPENAI_API_KEY=",
+                "WEBUI_SECRET_KEY=",
+                "SCARF_NO_ANALYTICS=true",
+                "DO_NOT_TRACK=true",
+                "ANONYMIZED_TELEMETRY=false",
+                "WHISPER_MODEL=base",
+                "WHISPER_MODEL_DIR=/app/backend/data/cache/whisper/models",
+                "RAG_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2",
+                "RAG_RERANKING_MODEL=",
+                "SENTENCE_TRANSFORMERS_HOME=/app/backend/data/cache/embedding/models",
+                "HF_HOME=/app/backend/data/cache/embedding/models",
+                "HOME=/root",
+                "WEBUI_BUILD_VERSION=6b463164f4b129e0ce4bdc9008dd661214fe5eb5",
+                "DOCKER=true"
+            ],
+            "Cmd": [
+                "bash",
+                "start.sh"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "curl --silent --fail http://localhost:${PORT:-8080}/health | jq -ne 'input.status == true' || exit 1"
+                ]
+            },
+            "Image": "ghcr.io/open-webui/open-webui:main",
+            "Volumes": null,
+            "WorkingDir": "/app/backend",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "desktop.docker.io/wsl-distro": "Ubuntu-22.04",
+                "org.opencontainers.image.created": "2024-09-21T19:44:54.295Z",
+                "org.opencontainers.image.description": "User-friendly WebUI for LLMs (Formerly Ollama WebUI)",
+                "org.opencontainers.image.licenses": "MIT",
+                "org.opencontainers.image.revision": "6b463164f4b129e0ce4bdc9008dd661214fe5eb5",
+                "org.opencontainers.image.source": "https://github.com/open-webui/open-webui",
+                "org.opencontainers.image.title": "open-webui",
+                "org.opencontainers.image.url": "https://github.com/open-webui/open-webui",
+                "org.opencontainers.image.version": "main"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "f8b3b62945e02205b2ab6f5c6cb230958ee11dde42f31a457544f186acbfa655",
+            "SandboxKey": "/var/run/docker/netns/f8b3b62945e0",
+            "Ports": {
+                "8080/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "272f6c856de7d3a03c99ada529249605e92b8d37b8a8cb2a142a93bb7aabdec7",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.2",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:02",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "02:42:ac:11:00:02",
+                    "NetworkID": "dfa5277bd82532b76af80ca9734724ad0900cac8d087c140f04af7f81cd739cb",
+                    "EndpointID": "272f6c856de7d3a03c99ada529249605e92b8d37b8a8cb2a142a93bb7aabdec7",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DriverOpts": null,
+                    "DNSNames": null
+                }
+            }
+        }
+    }
+]
